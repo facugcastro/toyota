@@ -233,6 +233,7 @@ footer {
     font-size: 18px;
 }
 
+/*medias*/
 @media screen and (min-width:768px) {
 
     .grid-inicio {
@@ -301,7 +302,8 @@ footer {
         grid-area: footer;
     }
 }
-    
+
+
 
 
 
