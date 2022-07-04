@@ -1,0 +1,305 @@
+
+@font-face {
+    font-family: "Yanone";
+    src: url('../fonts/yanone.ttf');
+}
+
+@font-face {
+    font-family: "jersey";
+    src: url('../fonts/Jersey\ M54.ttf');
+}
+
+@font-face {
+    font-family: "roboto-regular";
+    src: url("../fonts/roboto-regular.ttf");
+}
+
+@font-face {
+    font-family: "roboto-bold";
+    src: url(../fonts/roboto-bold.ttf);
+}
+
+h1 {
+    font-family: jersey;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: Yanone;
+    font-size: 25px;
+}
+
+h3 {
+    font-family: Yanone;
+    font-size: 25px;
+}
+
+
+.menuLogo {
+    width: 80px;
+    height: 40px;
+    margin: 5%;
+}
+
+header {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+}
+
+.portada {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    border-top: 1px solid white;
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.menuheader {
+    font-family: Yanone;
+    font-size: 20px;
+    color: white;
+    padding-top: 5px;
+    
+}
+
+@media screen and (min-width: 768px) {
+    .menuHeader {
+        display: inline;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+footer {
+    background-color: red;
+    font-family: Yanone;
+    color: white;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.horarios {
+    text-align: center;
+    font-family: Yanone;
+    font-size: 16px;
+}
+
+.wsp {
+    position: fixed;
+    right: 50px;
+    bottom: 10%;
+}
+
+
+.quieneSomos {
+    font-family: roboto-regular;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.sectionProductos {
+    font-family: Yanone;
+    font-size: 50px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productos {
+    position: relative;
+}
+
+.position {
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+
+.grid-inicio {
+    display: grid;
+    height: auto;
+    width: auto;
+    gap: 1px;
+    grid-template-columns: auto;
+    grid-template-rows: auto 50% 30% auto auto auto;
+    grid-template-areas: "header"
+        "portada"
+        "texto"
+        "footer";
+}
+
+header {
+    grid-area: header;
+}
+
+.logoPrincipal {
+    grid-area: portada;
+    padding-bottom: 30px;
+}
+
+.texto {
+    grid-area: texto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+footer {
+    grid-area: footer;
+}
+
+@media screen and (min-width:768px) {
+
+    .grid-inicio {
+        display: grid;
+        height: auto;
+        width: auto;
+        gap: 3px;
+        grid-template-columns: auto auto;
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas: "header header"
+            "main main"
+            "main main"
+            "footer footer";
+    }
+
+    .menuHeader {
+        display: inline;
+        padding: 10px;
+    }
+
+    .main {
+        grid-area: main;
+    }
+
+    .portada {
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+
+    .quieneSomos {
+        padding-bottom: 50px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    }
+
+.productos-nav {
+    list-style: none;
+    line-height: 30px;
+    font-family: Yanone;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.titulo-portada {
+    font-size: 50px;
+}
+
+
+.contactoAyuda {
+    text-align: center;
+    font-family: roboto-bold;
+    font-size: 20px;
+}
+
+.grid-autos {
+    display: grid;
+    height: auto;
+    width: auto;
+    gap: 1px;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: "header header"
+        "main main"
+        "productos productos"
+        "footer footer";
+}
+
+header {
+    grid-area: header;
+}
+
+.main {
+    grid-area: main;
+}
+
+.productos {
+    grid-area: productos;
+}
+
+
+footer {
+    grid-area: footer;
+}
+
+.productos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1%;
+    font-size: 18px;
+}
+
+
+@media screen and (min-width:1024px) {
+    .grid-autos {
+        display: grid;
+        height: auto;
+        width: auto;
+        gap: 1px;
+        grid-template-columns: auto auto;
+        grid-template-rows: (5, auto);
+        grid-template-areas: "header header"
+            "main main"
+            "productos productos"
+            "footer footer";
+    }
+
+    header {
+        grid-area: header;
+        font-size: 20px;
+    }
+
+    main {
+        grid-area: main;
+    }
+
+    .productos {
+        grid-area: productos;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+}
+    
