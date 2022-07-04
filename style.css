@@ -233,6 +233,38 @@ footer {
     font-size: 18px;
 }
 
+.productos img {
+    border: 1px solid black;
+}
+
+.main img {
+    border: 1px solid black;
+}
+
+/*animaciones*/
+
+.menuheader:hover {
+    color: white;
+    transform: scale(1.2);
+}
+
+.productos img:hover {
+    transform: scale(2);
+}
+
+.main img:hover {
+    transform: scale(1.5);
+}
+
+
+
+
+
+
+
+
+
+
 /*medias*/
 @media screen and (min-width:768px) {
 
