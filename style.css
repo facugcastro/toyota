@@ -233,14 +233,6 @@ footer {
     font-size: 18px;
 }
 
-.productos img {
-    border: 1px solid black;
-}
-
-.main img {
-    border: 1px solid black;
-}
-
 /*animaciones*/
 
 .menuheader:hover {
@@ -249,18 +241,12 @@ footer {
 }
 
 .productos img:hover {
-    transform: scale(2);
+    transform: scale(1.5);
 }
 
 .main img:hover {
     transform: scale(1.5);
 }
-
-
-
-
-
-
 
 
 
