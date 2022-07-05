@@ -195,6 +195,7 @@ footer {
     font-size: 20px;
 }
 
+/*grid pag autos*/
 .grid-autos {
     display: grid;
     height: auto;
@@ -231,20 +232,43 @@ footer {
     justify-content: center;
     margin: 1%;
     font-size: 18px;
+    line-height: 1.5;
+}
+
+.productos-camioneta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1%;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.productos-camioneta div{
+    padding: 0.5%;
+}
+
+.productos div{
+    padding: 0.5%;
 }
 
 .p {
     display: flex;
-    line-height: 1.5;
+    line-height: 1;
     text-transform: capitalize;
+    margin: 1%;
+    padding: 1%;
 }
 
 .productos h3 {
     text-align: center;
+    text-decoration: underline;
 }
 
 .productos-camioneta h3 {
     text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
 }
 
 .productos img {
@@ -273,6 +297,39 @@ footer {
 .main img:hover {
     transform: scale(3);
     margin-left: 40%;
+}
+
+
+/*grid pag camioneta*/
+
+.grid-camioneta {
+    display: grid;
+    height: auto;
+    width: auto;
+    gap: 1px;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: "header header"
+        "main main"
+        "productos-camioneta productos-camioneta"
+        "footer footer";
+}
+
+header {
+    grid-area: header;
+}
+
+.main {
+    grid-area: main;
+}
+
+.productos-camioneta {
+    grid-area: productos-camioneta;
+}
+
+
+footer {
+    grid-area: footer;
 }
 
 
@@ -332,7 +389,7 @@ footer {
 
     header {
         grid-area: header;
-        font-size: 20px;
+        font-size: 10px;
     }
 
     main {
@@ -348,6 +405,38 @@ footer {
     }
 }
 
+
+@media screen and (min-width:1024px) {
+    .grid-camioneta {
+        display: grid;
+        height: auto;
+        width: auto;
+        gap: 1px;
+        grid-template-columns: auto auto;
+        grid-template-rows: (5, auto);
+        grid-template-areas: "header header"
+            "main main"
+            "productos-camioneta productos-camioneta"
+            "footer footer";
+    }
+
+    header {
+        grid-area: header;
+        font-size: 10px;
+    }
+
+    main {
+        grid-area: main;
+    }
+
+    .productos-camioneta {
+        grid-area: productos-camioneta;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+}
 
 
 
