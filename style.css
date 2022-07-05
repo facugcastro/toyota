@@ -48,7 +48,7 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 15vh;
+    height: 10vh;
 }
 
 .portada {
@@ -64,7 +64,7 @@ header {
 
 .menuheader {
     font-family: Yanone;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     padding-top: 5px;
     
@@ -92,6 +92,7 @@ footer {
     padding-top: 20px;
     display: flex;
     justify-content: space-around;
+    z-index: 1;
 }
 
 .horarios {
@@ -109,7 +110,7 @@ footer {
 
 .quieneSomos {
     font-family: roboto-regular;
-    font-size: 18px;
+    font-size: 15px;
     color: black;
     text-align: center;
     padding-bottom: 20px;
@@ -233,19 +234,28 @@ footer {
     font-size: 18px;
 }
 
+.p {
+    display: flex;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+
 /*animaciones*/
 
 .menuheader:hover {
     color: white;
     transform: scale(1.2);
+    margin-right: 15%;
 }
 
 .productos img:hover {
-    transform: scale(1.5);
+    transform: scale(4);
+    margin-left: 50%;
 }
 
 .main img:hover {
-    transform: scale(1.5);
+    transform: scale(4);
+    margin-left: 50%;
 }
 
 
