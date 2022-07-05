@@ -140,6 +140,7 @@ footer {
     font-size: 30px;
 }
 
+/*grid-inicio*/
 
 .grid-inicio {
     display: grid;
@@ -252,6 +253,10 @@ footer {
     padding: 0.5%;
 }
 
+.portada h3 {
+    font-size: 30px;
+}
+
 .p {
     display: flex;
     line-height: 1;
@@ -264,6 +269,21 @@ footer {
     text-align: center;
     text-decoration: underline;
 }
+
+.preguntas__h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+.preguntas h3 {
+    font-size: 30px;
+}
+
+.preguntas p {
+    font-size: 20px;
+}
+
 
 .productos-camioneta h3 {
     text-align: center;
@@ -285,20 +305,46 @@ footer {
 
 .menuheader:hover {
     color: white;
-    transform: scale(1.2);
+    transform: scale(1.1);
     margin-right: 15%;
 }
 
 .productos img:hover {
-    transform: scale(3);
+    transform: scale(2);
     margin-left: 40%;
 }
 
 .main img:hover {
-    transform: scale(3);
+    transform: scale(2);
     margin-left: 40%;
 }
 
+/*grid ayuda*/
+.grid-ayuda {
+    display: grid;
+    height: auto;
+    width: auto;
+    gap: 1px;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: "header header"
+        "main main"
+        "main main"
+        "footer footer";
+}
+
+header {
+    grid-area: header;
+}
+
+.main {
+    grid-area: main;
+}
+
+
+footer {
+    grid-area: footer;
+}
 
 /*grid pag camioneta*/
 
@@ -440,4 +486,31 @@ footer {
 
 
 
+@media screen and (min-width:1024px) {
+    .grid-ayuda {
+        display: grid;
+        height: auto;
+        width: auto;
+        gap: 1px;
+        grid-template-columns: auto auto;
+        grid-template-rows: (5, auto);
+        grid-template-areas: "header header"
+            "main main"
+            "main main"
+            "footer footer";
+    }
+
+    header {
+        grid-area: header;
+        font-size: 10px;
+    }
+
+    main {
+        grid-area: main;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+}
 
