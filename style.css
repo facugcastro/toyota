@@ -31,7 +31,7 @@ h2 {
 
 h3 {
     font-family: Yanone;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 
@@ -89,10 +89,9 @@ footer {
     background-color: red;
     font-family: Yanone;
     color: white;
-    padding-top: 20px;
+    height: 100px;
     display: flex;
     justify-content: space-around;
-    z-index: 1;
 }
 
 .horarios {
@@ -240,6 +239,24 @@ footer {
     text-transform: capitalize;
 }
 
+.productos h3 {
+    text-align: center;
+}
+
+.productos-camioneta h3 {
+    text-align: center;
+}
+
+.productos img {
+    display: block;
+    margin: 0px auto;
+}
+
+.productos-camioneta img {
+    display: block;
+    margin: 0px auto;
+}
+
 /*animaciones*/
 
 .menuheader:hover {
@@ -249,13 +266,13 @@ footer {
 }
 
 .productos img:hover {
-    transform: scale(4);
-    margin-left: 50%;
+    transform: scale(3);
+    margin-left: 40%;
 }
 
 .main img:hover {
-    transform: scale(4);
-    margin-left: 50%;
+    transform: scale(3);
+    margin-left: 40%;
 }
 
 
