@@ -6,17 +6,13 @@
     gap: 1px;
     grid-template-columns: auto;
     grid-template-rows: auto 50% 30% auto auto auto;
-    grid-template-areas: "header" "portada" "texto" "footer";
+    grid-template-areas: "cabecera cabecera" "portada" "texto" "footer";
   }
   
   header {
-    grid-area: header;
+    grid-area: cabecera;
   }
   
-  .logoPrincipal {
-    grid-area: portada;
-    padding-bottom: 30px;
-  }
   
   .texto {
     grid-area: texto;
