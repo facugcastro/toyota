@@ -1,0 +1,20 @@
+footer {
+    background-color: red;
+    font-family: Yanone;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.horarios {
+    text-align: center;
+    font-family: Yanone;
+    font-size: 16px;
+}
+
+.wsp {
+    position: fixed;
+    right: 50px;
+    bottom: 10%;
+}

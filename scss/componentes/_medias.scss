@@ -1,0 +1,97 @@
+/*medias*/
+@media screen and (min-width: 768px) {
+    .grid-inicio {
+      display: grid;
+      height: auto;
+      width: auto;
+      gap: 3px;
+      grid-template-columns: auto auto;
+      grid-template-rows: repeat(5, auto);
+      grid-template-areas: "header header" "main main" "main main" "footer footer";
+    }
+    .menuHeader {
+      display: inline;
+      padding: 10px;
+    }
+    .main {
+      grid-area: main;
+    }
+    .portada {
+      padding-top: 80px;
+      padding-bottom: 100px;
+    }
+    .quieneSomos {
+      padding-bottom: 50px;
+      padding-left: 200px;
+      padding-right: 200px;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .grid-autos {
+      display: grid;
+      height: auto;
+      width: auto;
+      gap: 1px;
+      grid-template-columns: auto auto;
+      grid-template-rows: 5, auto;
+      grid-template-areas: "header header" "main main" "productos productos" "footer footer";
+    }
+    header {
+      grid-area: header;
+      font-size: 10px;
+    }
+    main {
+      grid-area: main;
+    }
+    .productos {
+      grid-area: productos;
+    }
+    footer {
+      grid-area: footer;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .grid-camioneta {
+      display: grid;
+      height: auto;
+      width: auto;
+      gap: 1px;
+      grid-template-columns: auto auto;
+      grid-template-rows: 5, auto;
+      grid-template-areas: "header header" "main main" "productos-camioneta productos-camioneta" "footer footer";
+    }
+    header {
+      grid-area: header;
+      font-size: 10px;
+    }
+    main {
+      grid-area: main;
+    }
+    .productos-camioneta {
+      grid-area: productos-camioneta;
+    }
+    footer {
+      grid-area: footer;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .grid-ayuda {
+      display: grid;
+      height: auto;
+      width: auto;
+      gap: 1px;
+      grid-template-columns: auto auto;
+      grid-template-rows: 5, auto;
+      grid-template-areas: "header header" "main main" "main main" "footer footer";
+    }
+    header {
+      grid-area: header;
+      font-size: 10px;
+    }
+    main {
+      grid-area: main;
+    }
+    footer {
+      grid-area: footer;
+    }
+  }

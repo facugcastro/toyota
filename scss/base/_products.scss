@@ -1,0 +1,133 @@
+.sectionProductos {
+    font-family: Yanone;
+    font-size: 50px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .productos {
+    position: relative;
+  }
+  
+  .position {
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+  }
+
+
+  .productos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1%;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .productos-camioneta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1%;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .productos-camioneta div {
+    padding: 0.5%;
+  }
+  
+  .productos div {
+    padding: 0.5%;
+  }
+  
+  .portada h3 {
+    font-size: 30px;
+  }
+  
+  .p {
+    display: flex;
+    line-height: 1;
+    text-transform: capitalize;
+    margin: 1%;
+    padding: 1%;
+  }
+  
+  .productos h3 {
+    text-align: center;
+    text-decoration: underline;
+  }
+
+
+  .productos-camioneta h3 {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+  }
+  
+  .productos img {
+    display: block;
+    margin: 0px auto;
+  }
+  
+  .productos-camioneta img {
+    display: block;
+    margin: 0px auto;
+  }
+
+  h1 {
+    font-family: jersey;
+    font-size: 50px;
+  }
+  
+  h2 {
+    font-family: Yanone;
+    font-size: 25px;
+  }
+  
+  h3 {
+    font-family: Yanone;
+    font-size: 30px;
+  }
+  
+  .portada {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    border-top: 1px solid white;
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .quieneSomos {
+    font-family: roboto-regular;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .preguntas__h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+  }
+  
+  .preguntas h3 {
+    font-size: 30px;
+  }
+  
+  .preguntas p {
+    font-size: 20px;
+  }

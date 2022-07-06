@@ -1,0 +1,125 @@
+/*grid-inicio*/
+.grid-inicio {
+    display: grid;
+    height: auto;
+    width: auto;
+    gap: 1px;
+    grid-template-columns: auto;
+    grid-template-rows: auto 50% 30% auto auto auto;
+    grid-template-areas: "header" "portada" "texto" "footer";
+  }
+  
+  header {
+    grid-area: header;
+  }
+  
+  .logoPrincipal {
+    grid-area: portada;
+    padding-bottom: 30px;
+  }
+  
+  .texto {
+    grid-area: texto;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  footer {
+    grid-area: footer;
+  }
+  
+  .productos-nav {
+    list-style: none;
+    line-height: 30px;
+    font-family: Yanone;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .titulo-portada {
+    font-size: 50px;
+  }
+  
+  .contactoAyuda {
+    text-align: center;
+    font-family: roboto-bold;
+    font-size: 20px;
+  }
+  
+  /*grid pag autos*/
+  .grid-autos {
+    display: grid;
+    height: auto;
+    width: auto;
+    gap: 1px;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: "header header" "main main" "productos productos" "footer footer";
+  }
+  
+  header {
+    grid-area: header;
+  }
+  
+  .main {
+    grid-area: main;
+  }
+  
+  .productos {
+    grid-area: productos;
+  }
+  
+  footer {
+    grid-area: footer;
+  }
+
+  /*grid ayuda*/
+.grid-ayuda {
+    display: grid;
+    height: auto;
+    width: auto;
+    gap: 1px;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: "header header" "main main" "main main" "footer footer";
+  }
+  
+  header {
+    grid-area: header;
+  }
+  
+  .main {
+    grid-area: main;
+  }
+  
+  footer {
+    grid-area: footer;
+  }
+  
+  /*grid pag camioneta*/
+  .grid-camioneta {
+    display: grid;
+    height: auto;
+    width: auto;
+    gap: 1px;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: "header header" "main main" "productos-camioneta productos-camioneta" "footer footer";
+  }
+  
+  header {
+    grid-area: header;
+  }
+  
+  .main {
+    grid-area: main;
+  }
+  
+  .productos-camioneta {
+    grid-area: productos-camioneta;
+  }
+  
+  footer {
+    grid-area: footer;
+  }

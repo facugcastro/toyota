@@ -1,0 +1,37 @@
+.menuLogo {
+    width: 80px;
+    height: 40px;
+    margin: 5%;
+}
+
+header {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+
+.menuheader {
+    font-family: Yanone;
+    font-size: 18px;
+    color: white;
+    padding-top: 5px;
+    
+}
+
+@media screen and (min-width: 768px) {
+    .menuHeader {
+        display: inline;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
