@@ -16,6 +16,7 @@ li {
   list-style: none;
 }
 
+/*productos*/
 .sectionProductos {
   font-family: Yanone;
   font-size: 50px;
@@ -49,6 +50,8 @@ li {
   font-size: 18px;
   line-height: 1.5;
 }
+
+/*productos camioneta*/
 
 .productos-camioneta {
   display: flex;
@@ -100,6 +103,7 @@ li {
   margin: 0px auto;
 }
 
+/*titulos*/
 h1 {
   font-family: jersey;
   font-size: 50px;
@@ -119,7 +123,7 @@ h3 {
   background-color: grey;
   color: white;
   text-align: center;
-  border-top: 1px solid white;
+  border-top: 1px solid black;
   width: 100%;
   height: auto;
   padding-top: 100px;
@@ -134,6 +138,8 @@ h3 {
   padding-bottom: 20px;
 }
 
+/*preguntas */
+
 .preguntas__h2 {
   text-align: center;
   text-decoration: underline;
@@ -147,6 +153,8 @@ h3 {
 .preguntas p {
   font-size: 20px;
 }
+
+/*footer*/
 
 footer {
   background-color: red;
@@ -171,11 +179,6 @@ footer {
 
 /*componentes*/
 /*animaciones*/
-.menuheader:hover {
-  color: white;
-  transform: scale(1.1);
-  margin-right: 15%;
-}
 
 .productos img:hover {
   transform: scale(2);
@@ -187,6 +190,7 @@ footer {
   margin-left: 40%;
 }
 
+/*fuentes*/
 @font-face {
   font-family: "Yanone";
   src: url("../fonts/yanone.ttf");

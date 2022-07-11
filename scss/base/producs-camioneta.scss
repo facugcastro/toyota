@@ -1,0 +1,23 @@
+.productos-camioneta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1%;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .productos-camioneta div {
+    padding: 0.5%;
+  }
+
+  .productos-camioneta img {
+    display: block;
+    margin: 0px auto;
+  }
+
+  .productos-camioneta h3 {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+  }

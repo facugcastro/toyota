@@ -1,3 +1,4 @@
+/*css footer*/
 footer {
     background-color: red;
     font-family: Yanone;
@@ -5,16 +6,33 @@ footer {
     height: 100px;
     display: flex;
     justify-content: space-around;
+    div {
+        a .instagram{
+            img {
+
+            }
+        }
+
+        a .twitter{
+            img {
+
+            }
+        }
+    }
+    div .horarios{
+        p {
+            text-align: center;
+            font-family: Yanone;
+            font-size: 16px;
+        }
+    }
+    a .wsp{
+        a{
+            position: fixed;
+            right: 50px;
+            bottom: 10%;
+        }
+    }
 }
 
-.horarios {
-    text-align: center;
-    font-family: Yanone;
-    font-size: 16px;
-}
 
-.wsp {
-    position: fixed;
-    right: 50px;
-    bottom: 10%;
-}
