@@ -1,0 +1,76 @@
+@mixin anchos ($ancho) {
+    width: $ancho;
+}
+
+.position {
+    @include anchos(100%);
+}
+
+.sectionProductos {
+    @include anchos(100%);
+}
+
+.portada {
+    @include anchos(100%);
+}
+
+
+@mixin tamaño-fuente ($size) {
+    font-size: $size;
+}
+
+.sectionProductos {
+    @include tamaño-fuente (50px)
+}
+
+.position {
+    @include tamaño-fuente (30px)
+}
+
+.productos {
+    @include tamaño-fuente (18px)
+}
+
+.productos-camioneta div {
+    @include tamaño-fuente (18px)
+}
+
+.portada h3 {
+    @include tamaño-fuente (30px)
+}
+
+.productos-camioneta h3 {
+    @include tamaño-fuente (30px)
+}
+
+.h1 {
+    @include tamaño-fuente (50px)
+}
+
+.h2 {
+    @include tamaño-fuente (25px)
+}
+
+.h3 {
+    @include tamaño-fuente (30px)
+}
+
+.quieneSomos {
+    @include tamaño-fuente (15px)
+}
+
+.pregunta__h2 {
+    @include tamaño-fuente (40px)
+}
+
+.preguntas h3 {
+    @include tamaño-fuente (30px)
+}
+
+.preguntas p {
+    @include tamaño-fuente (20px)
+}
+
+.horarios {
+    @include tamaño-fuente (16px)
+}

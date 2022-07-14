@@ -1,0 +1,23 @@
+
+$normal: (
+    color-normal: red,
+    bg-normal:  grey,
+    
+)
+
+$vip: (
+    color-vip: gold,
+    bg-vip:  black,
+
+);
+
+.normal {
+      background-color: map-get($normal,$bg-normal);
+      color: map-get($normal, $color-normal);
+}
+
+.vip {
+     background-color: map-get($vip,$bg.vip);
+     color: map-get($vip,$color-vip)
+    
+}

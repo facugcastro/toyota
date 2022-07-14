@@ -1,0 +1,28 @@
+
+%preguntas {
+    font-family: Yanone;
+    color: black;
+    background-color: white;
+}
+
+
+.preguntas__h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    @extend %preguntas;
+    
+  }
+  
+.preguntas h3 {
+    font-size: 30px;
+    @extend %preguntas;
+}
+    
+    
+  
+.preguntas p {
+    font-size: 20px;
+    @extend %preguntas;
+    
+  }
