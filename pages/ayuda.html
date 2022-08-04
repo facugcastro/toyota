@@ -46,56 +46,209 @@
 
     <main class="preguntas">
         <div class="portada">
-            <h1 class="titulo-portada">Ayuda</h1>
+            <h1 class="titulo-portada">Preguntas frecuentes</h1>
         </div>
-        <div>
-            <h2 class="preguntas__h2">Preguntas frecuentes</h2>
-            <h3>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 ¿Qué es un Plan de Ahorro para fines determinados?
-            </h3>
-            
-            <p>El Plan de Ahorro es un sistema a través del cual un grupo determinado de personas realiza un aporte mensual a un fondo común para la compra de bienes (automotor en este caso) que se adjudicarán por sorteo y licitación de acuerdo con la disponibilidad y durante la vigencia del plan (generalmente 84 meses).</p>
-
-            <h3>
-                ¿Quíen controla la actividad Planes de Ahorro?
-            </h3>
-
-            <p>INSPECCIÓN GENERAL DE JUSTICIA (IGJ) controla el cumplimiento de las pautas establecidas.</p>
-
-            <h3>
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                El Plan de Ahorro es un sistema a través del cual un grupo determinado de personas realiza un aporte mensual a un fondo común para la compra de bienes (automotor en este caso) que se adjudicarán por sorteo y licitación de acuerdo con la disponibilidad y durante la vigencia del plan (generalmente 84 meses).
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              ¿Quíen controla la actividad Planes de Ahorro?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                INSPECCIÓN GENERAL DE JUSTICIA (IGJ) controla el cumplimiento de las pautas establecidas.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 ¿Cuáles son los requisitos para pedir un Plan de Ahorro?
-            </h3>
-            <p>Para Personas Físicas, contar con una edad mínima de 18 años, o menores que se encuentren emancipados y una edad máxima de 72 años al momento de la suscripción. Completar y firmar en cualquier concesionario de la red una solicitud de adhesión y sus anexos correspondientes. Para Personas Jurídicas, presentar la documentación societaria respaldatoria y acreditar la personería jurídica. Abonar la primera cuota mensual.</p>
-
-            <h3>
-                ¿Qué es el valor móvil?
-            </h3>
-            <p>
-                Es el precio oficial del vehículo objeto del plan, al contado, y final con impuestos, sugerido para la venta al público por Toyota Argentina S.A., que coincide con el importe base de cálculo para la determinación de las Cuotas Puras.
-            </p>
-
-            <h3>¿Qué es el derecho de adjudicacíon?</h3>
-            <p>
-                Es el importe que se abona a la Administradora (Toyota Plan) por la adjudicación del automotor. Es el 1% del valor vigente del automotor al momento del pago de este concepto. para mayores datos consultar las condiciones generales de la solicitud de adhesión. Para mayor información consultar las Condiciones Generales de la Solicitud de Adhesión.
-            </p>
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Para Personas Físicas, contar con una edad mínima de 18 años, o menores que se encuentren emancipados y una edad máxima de 72 años al momento de la suscripción. Completar y firmar en cualquier concesionario de la red una solicitud de adhesión y sus anexos correspondientes. Para Personas Jurídicas, presentar la documentación societaria respaldatoria y acreditar la personería jurídica. Abonar la primera cuota mensual.
+              </div>
+            </div>
+          </div>
         </div>
 
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                ¿Qué es el valor móvil?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Es el precio oficial del vehículo objeto del plan, al contado, y final con impuestos, sugerido para la venta al público por Toyota Argentina S.A., que coincide con el importe base de cálculo para la determinación de las Cuotas Puras.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                ¿Qué es el derecho de adjudicacíon?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Es el importe que se abona a la Administradora (Toyota Plan) por la adjudicación del automotor. Es el 1% del valor vigente del automotor al momento del pago de este concepto. para mayores datos consultar las condiciones generales de la solicitud de adhesión. Para mayor información consultar las Condiciones Generales de la Solicitud de Adhesión.
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                ¿Cómo licito?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Vas a poder licitar mensualmente realizando una oferta licitación desde nuestra plataforma online, completando el formulario de licitación y enviándolo a Toyota Plan por carta certificada, o también podés acercarte con tu oferta al lugar donde se realice el acto hasta 5 minutos antes del comienzo del mismo.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                ¿El valor de la cuota es variable ?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                La Cuota Pura se determina según el Valor Móvil vigente a la fecha de emisión de cada cuota. En la modalidad de Plan de Ahorro las cuotas no tienen interés. Si hubiese una baja en la lista de precios la Cuota Pura disminuirá en idéntica proporción, mientras que si hubiese un aumento la Cuota Pura se ajustará en el mismo porcentaje. Los aumentos no afectan a las cuotas ya abonadas, de esta manera el ahorrista se capitaliza.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                ¿En qué moneda se facturan las cuotas?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Todas las cuotas se facturan en pesos.</strong> ¿Es posible adelantar cuotas? Sí, es posible adelantar cuotas en cualquier momento del plan, a valor de la cuota pura y sin gastos administrativos. 
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                ¿Cuándo cobro el haber de mi plan?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Los fondos correspondientes al haber de planes renunciados/rescindidos serán puestos a disposición dentro de los 10 días siguientes al balance de liquidación del grupo, el que se confeccionará dentro de los 30 días desde el último acto de adjudicación. 
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                ¿Cómo se adjudican los vehículos?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Las adjudicaciones de los vehículos se realizan mensualmente por sorteo y licitación de acuerdo con los fondos del grupo. Para mayor información consultar las Condiciones Generales de la Solicitud de Adhesión.
+
+                El adherente podrá visualizar el día en el que se efectuará el acto de adjudicación en el cupón de pago o en el sitio web. El resultado del acto de adjudicación se encuentra disponible al día siguiente de celebrado en el sitio.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                ¿Cómo me llega el cúpon de pago de las cuotas?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Vas a estar recibiendo el cupón de pago todos los meses en tu correo, o bien vas a poder ingresar con tu número de grupo y orden al panel de clientes en donde vas a ver toda la información de tu plan, incluido los cupones de pago.
+              </div>
+            </div>
+          </div>
+        </div>
 
     </main>
 
-    <footer id="Contacto" class="footer">
-        <div>
-            <a class="instagram" href="https://www.instagram.com/accounts/login/?next=/toyotaargentina/"><img src="../multimedia/logos/igicon.png"
-                    alt="Instagram" width="30px"></a>
-            <a class="twitter" href="https://twitter.com/toyota_arg?lang=es"><img src="../multimedia/logos/twitter.jpg"
-                    alt="Twitter" width="30px"></a>
-        </div>
+    <footer class="bg-dark text-center text-white" id="Contacto">
+      <div class="container p-4">
+    
+        <!-- Section: Social media -->
+        <section class="mb-4">
 
-        <div class="horarios"> Horarios
-            <p>Lunes a Sábados</p>
-            <p>08:00hs a 20:00hs</p>
-        </div>
-        <a class="wsp" href="https://web.whatsapp.com/"><img src="../multimedia/logos/wsp.png" alt="wsp logo"></a>
+          <!-- Facebook -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i class="bi bi-facebook">Facebook</i></a>
+    
+          <!-- Twitter -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!" role="button"><i class="fab fa-twitter">Twitter</i></a>
+
+          <!-- Instagram -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button"><i class="fab fa-instagram">Instagram</i></a>
+
+          <!-- Whatsapp -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: green" href="#!" role="button"><i class="fab fa-github">Whatsapp</i></a>
+
+        </section>
+
+        <!-- Section: Social media -->   
+        <section class="">
+          <form action="">
+            <div class="row d-flex justify-content-center">
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong>Para mayor información , envíanos un correo</strong>
+                </p>
+              </div>
+            
+              <div class="col-md-5 col-12">
+                <div class="form-outline form-white mb-4">
+                  <input type="email" id="form5Example2" class="form-control" />
+                  <label class="form-label" for="form5Example2"></label>
+                </div>
+              </div>
+              <div class="col-auto">
+                <button type="submit" class="btn btn-outline-light mb-4">
+                  Enviar
+                </button>
+              </div>
+            </div>
+          </form>
+        </section>
+
+        <section class="mb-4">
+          <p>
+            Horarios de atención de Lunes a Sábados desde 08:00hs a 20:00hs
+          </p>
+        </section>
+      </div>
     </footer>
  </div>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

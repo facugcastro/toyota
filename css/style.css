@@ -145,17 +145,6 @@ h3 {
 }
 
 /*componentes*/
-/*animaciones*/
-
-.productos img:hover {
-  transform: scale(2);
-  margin-left: 40%;
-}
-
-.main img:hover {
-  transform: scale(2);
-  margin-left: 40%;
-}
 
 /*fuentes*/
 @font-face {
