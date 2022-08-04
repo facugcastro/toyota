@@ -1,11 +1,21 @@
-/*base*/
+
 .cabecera {
   background-color: red;
 }
 
-/*productos*/
+
 .productos {
   position: relative;
+}
+
+.auto {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.camioneta {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .position {
@@ -26,7 +36,7 @@
   line-height: 1.5;
 }
 
-/*productos camioneta*/
+
 
 .productos-camioneta {
   display: flex;
@@ -78,7 +88,7 @@
   margin: 0px auto;
 }
 
-/*titulos*/
+
 h1 {
   font-family: jersey;
   font-size: 50px;
@@ -111,11 +121,9 @@ h3 {
   color: black;
   text-align: center;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 
-/*componentes*/
-
-/*fuentes*/
 @font-face {
   font-family: "Yanone";
   src: url("../fonts/yanone.ttf");
@@ -132,7 +140,8 @@ h3 {
   font-family: "roboto-bold";
   src: url(../fonts/roboto-bold.ttf);
 }
-/*grid-inicio*/
+
+
 .grid-inicio {
   display: grid;
   height: auto;
@@ -181,7 +190,7 @@ footer {
   font-size: 20px;
 }
 
-/*grid pag autos*/
+
 .grid-autos {
   display: grid;
   height: auto;
@@ -208,7 +217,7 @@ footer {
   grid-area: footer;
 }
 
-/*grid ayuda*/
+
 .grid-ayuda {
   display: grid;
   height: auto;
@@ -231,7 +240,7 @@ footer {
   grid-area: footer;
 }
 
-/*grid pag camioneta*/
+
 .grid-camioneta {
   display: grid;
   height: auto;
@@ -258,7 +267,7 @@ footer {
   grid-area: footer;
 }
 
-/*medias*/
+
 @media screen and (min-width: 768px) {
   .grid-inicio {
     display: grid;
