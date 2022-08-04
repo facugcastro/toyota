@@ -4,18 +4,6 @@
 }
 
 /*productos*/
-.sectionProductos {
-  font-family: Yanone;
-  font-size: 50px;
-  color: white;
-  padding-top: 20px;
-  padding-bottom: 80px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .productos {
   position: relative;
 }
@@ -123,25 +111,6 @@ h3 {
   color: black;
   text-align: center;
   padding-bottom: 20px;
-}
-
-/*preguntas */
-
-.preguntas__h2 {
-  text-align: center;
-  font-family: Yanone;
-  text-decoration: underline;
-  font-size: 40px;
-}
-
-.preguntas h3 {
-  font-size: 30px;
-  font-family: Yanone;
-}
-
-.preguntas p {
-  font-size: 20px;
-  font-family: Yanone;
 }
 
 /*componentes*/
