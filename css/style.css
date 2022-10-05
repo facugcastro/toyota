@@ -365,4 +365,167 @@ footer {
   }
 }
 
+
+.bodylogin {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../multimedia/img/fondo.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.contenedor {
+  width: 70%;
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  transition: all .5s ease-out;
+  margin-top: 40px;
+}
+
+.bienvenido {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 80px;
+}
+
+.mensaje {
+  padding: 10px;
+  margin-top: 40px;
+  color: white;
+}
+
+.mensaje h2 {
+  font-size: 25px;
+  padding: 10px;
+  margin-top: 50px;
+  color: white;
+}
+
+.mensaje button {
+  padding: 10px;
+  font-weight: 400;
+  background-color: #6464f8;
+  border-radius: 20px;
+  border: black;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 32px;
+  transition: all .3s ease-in;
+  color: #fff;
+}
+
+.mensaje button:hover {
+  background-color: #6464f8;
+}
+
+.formulario1 {
+  width: 400px;
+  height: 380px;
+  padding: 15px;
+  margin: 2px;
+  margin-top: 50px;
+  background-color: grey;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.formulario1 input {
+  width: 250px;
+  display: block;
+  margin: auto;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  border: black;
+  border-bottom: solid black;
+  text-align: center;
+  justify-content: center;
+  outline: none;
+  padding: 10px;
+  font-size: 15px;
+  color: black;
+}
+
+.formulario1 input[type="button"] {
+  width: 60%;
+  margin: auto;
+  border: solid thin black;
+  padding: 15px;
+  border-radius: 25px;
+  background-color: #6464f8;
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 13px;
+  cursor: pointer;
+  color: black;
+}
+
+.formulario2 {
+  width: 400px;
+  height: 380px;
+  padding: 15px;
+  margin: 2px;
+  margin-top: 50px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.formulario2 input {
+  width: 250px;
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 25px;
+  background-color: white;
+  border:  solid black;
+  text-align: center;
+  justify-content: center;
+  outline: none;
+  padding: 10px;
+  font-size: 15px;
+  color: black;
+}
+
+.formulario2 input[type="button"] {
+  width: 60%;
+  margin: auto;
+  border: solid black;
+  padding: 15px;
+  border-radius: 25px;
+  background-color: grey;
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 13px;
+  cursor: pointer;
+  color: #222;
+}
+
+.crear-cuenta {
+  margin: 20px;
+}
+
+
+.sign-in {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.sign-in.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.sign-up.active {
+  opacity: 0;
+  visibility: hidden;
+}
+
+
 /*# sourceMappingURL=style.css.map */

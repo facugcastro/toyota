@@ -1,36 +1,31 @@
 const usuarios = [
     {
-      nombre: "facundo",
-      mail: "facundo@mail.com",
+      mail: "facundo@gmail.com",
       pass: "123456789",
     },
     {
-      nombre: "Ana",
-      mail: "ana@mail.com",
+      mail: "ana@gmail.com",
       pass: "987654321",
     },
     {
-      nombre: "Juan",
-      mail: "juan@mail.com",
+      mail: "juan@gmail.com",
       pass: "juanjuan",
     },
   ];
   
   
-  const mailLogin = document.getElementById("emailLogin"),
-    passLogin = document.getElementById("passwordLogin"),
-    nombreUsuario = document.getElementById("nombreUsuario"),
-    recordar = document.getElementById("recordarme"),
-    btnLogin = document.getElementById("login"),
-    modalEl = document.getElementById("modalLogin"),
-    modal = new bootstrap.Modal("modalEl"),
-    toggles = document.querySelectorAll(".toggles");
+  const mailLogin = document.getElementById("emailLogin");
+  const  passLogin = document.getElementById("passwordLogin");
+  const  recordar = document.getElementById("recordarme");
+  const  btnLogin = document.getElementById("login");
+  const  modalEl = document.getElementById("modalLogin");
+  const  modal = new bootstrap.Modal("modalEl");
+  const  toggles = document.querySelectorAll(".toggles");
   
   function guardarDatos(usuario, storage) {
     const user = {
-      name: usuario.nombre,
       user: usuario.mail,
-      pass: usuario.pass,
+      pass: usuario.pass,   
     };
   
     storage.setItem("user", JSON.stringify(user));
@@ -75,8 +70,15 @@ const usuarios = [
           guardarDatos(data, sessionStorage);
         }
   
-        modal.hide();
+        console.log(data)
   
       }
     }
   });
+
+  btnLogout.addEventListener("click", () => {
+    logOut();
+    cambiarClass(toggles, "d-none");
+  });
+  
+  existe(datoGuardado(localStorage));
