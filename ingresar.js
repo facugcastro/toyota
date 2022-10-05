@@ -54,7 +54,7 @@ btnInicioSesion.addEventListener("click", () => {
             title: 'Acceso denegado',
             text: 'vuelva a intentarlo',
             showConfirmButton: false,
-            timer: 3000,
+            timer: 5000,
         })
     }
 
@@ -93,6 +93,6 @@ btnRegistrarse.addEventListener("click", () => {
         title: 'Tus datos se registraron correctamente',
         text: 'Se te enviara un correo electrónico a tu cuenta con la confirmación del registro y los pasos a seguir para su correcta activación',
         showConfirmButton: false,
-        timer: 5000
+        timer: 6000
     })
 })
